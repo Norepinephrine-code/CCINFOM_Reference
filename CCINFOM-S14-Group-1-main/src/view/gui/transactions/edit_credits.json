@@ -1,0 +1,97 @@
+[
+    [
+        {
+            "value": "Anime"
+        },
+        {
+            "name": "anime",
+            "value": "",
+            "db_link": "animes.title"
+        },
+        {
+            "value": ""
+        },
+        {
+            "name": "animeId",
+            "value": "",
+            "db_link": "animes.anime_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchAnime",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Episode"
+        },
+        {
+            "type": "TextField",
+            "name": "episode",
+            "db_link": "credits.episode"
+        }
+    ],
+    [
+        {
+            "value": "Staff"
+        },
+        {
+            "name": "staffFirstName",
+            "value": "",
+            "db_link": "staff.first_name"
+        },
+        {
+            "name": "staffLastName",
+            "value": "",
+            "db_link": "staff.last_name"
+        },
+        {
+            "name": "staffId",
+            "value": "",
+            "db_link": "staff.staff_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchStaff",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Position"
+        },
+        {
+            "type": "TextField",
+            "name": "position"
+        }
+    ],
+    [
+        {
+            "value": "Department"
+        },
+        {
+            "type": "ComboBox",
+            "name": "department",
+            "db_link": "animes.department",
+            "combobox_type": "department"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "saveCredits",
+            "value": "Save"
+        },
+        {
+            "type": "Button",
+            "name": "deleteCredits",
+            "value": "Delete"
+        },
+        {
+            "type": "Button",
+            "value": "Load",
+            "name": "loadCredits"
+        }
+    ]
+]

@@ -1,0 +1,19 @@
+[
+    [  
+        {
+            "name": "yearStudioLabel",
+    
+            "value": "Select Year Basis"
+        },
+        {
+            "type": "ComboBox",
+            "name": "yearStudioComboBox",
+            "combobox_type": "years"
+        },
+        {
+            "type": "Button",
+            "value": "Check",
+            "name": "checkTopStudio"
+        }
+    ]
+]

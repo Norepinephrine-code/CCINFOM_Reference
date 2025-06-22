@@ -1,0 +1,58 @@
+[
+    [
+        {
+            "value": "User"
+        },
+        {
+            "name": "username",
+            "value": "No user selected",
+            "db_link": "users.user_name"
+        },
+        {
+            "name": "userId",
+            "value": "",
+            "db_link": "users.user_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchUser",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Anime"
+        },
+        {
+            "name": "anime",
+            "value": "",
+            "db_link": "animes.title"
+        },
+        {
+            "name": "animeId",
+            "value": "No anime selected",
+            "db_link": "animes.anime_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchAnime",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Last Episode Watched"
+        },
+        {
+            "value": "0",
+            "name": "episode"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "watchEpisode",
+            "value": "Watch Next Episode"
+        }
+    ]
+]

@@ -1,0 +1,49 @@
+[
+    [
+        {
+            "value": "Studio"
+        },
+        {
+            "value": "No studio selected",
+            "name": "studioId",
+            "db_link": "studios.studio_id"
+        },
+        {
+            "type": "Button",
+            "value": "Search",
+            "name": "searchStudio"
+        },
+        {
+            "type": "Button",
+            "value": "Add New",
+            "name": "addNewStudio"
+        }
+    ],
+    [
+        {
+            "value": "Studio Name"
+        },
+        {
+            "type": "TextField",
+            "name": "studioName",
+            "db_link": "studios.studio_name"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "saveStudio",
+            "value": "Save"
+        },
+        {
+            "type": "Button",
+            "name": "deleteStudio",
+            "value": "Delete"
+        },
+        {
+            "type": "Button",
+            "name": "searchAllAnime",
+            "value": "GetAnime"
+        }
+    ]
+]

@@ -1,0 +1,60 @@
+[
+    [
+        {
+            "type": "Icon",
+            "name": "iconLabel"
+        }
+    ],
+    [
+        {
+            "value": "User name"
+        },
+        {
+            "name": "userName",
+            "value": "WaffleRain"
+        }
+    ],
+    [
+        {
+            "value": "Join Date"
+        },
+        {
+            "name": "joinDate",
+            "value": "2024 january"
+        },
+        {
+            "value": "Region"
+        },
+        {
+            "name": "region",
+            "value": "EU"
+        }
+    ],
+    [
+        {
+            "value": "Viewed Animes"
+        },
+        {
+            "name": "viewedAnimes",
+            "value": "15"
+        }
+    ],
+    [
+        {
+            "value": "Total Episodes"
+        },
+        {
+            "name": "totalEpisodes",
+            "value": "45"
+        }
+    ],
+    [
+        {
+            "value": "Ratings made"
+        },
+        {
+            "name": "ratingsMade",
+            "value": "5"
+        }
+    ]
+]

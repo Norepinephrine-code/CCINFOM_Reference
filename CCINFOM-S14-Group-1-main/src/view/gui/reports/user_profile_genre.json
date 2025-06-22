@@ -1,0 +1,66 @@
+[
+    [
+        {
+            "value": "Rank #1 Genre"
+        },
+        {
+            "name": "rank1",
+            "value": ""
+        }
+    ],
+    [
+        {
+            "value": "Top Rated Anime"
+        },
+        {
+            "name": "topAnime1",
+            "value": "Attack on titan"
+        }
+    ],
+    [
+        {
+            "value": ""
+        }
+    ],
+    [
+        {
+            "value": "Rank #2 Genre"
+        },
+        {
+            "name": "rank2",
+            "value": ""
+        }
+    ],
+    [
+        {
+            "value": "Top Rated Anime"
+        },
+        {
+            "name": "topAnime2",
+            "value": ""
+        }
+    ],
+    [
+        {
+            "value": ""
+        }
+    ],
+    [
+        {
+            "value": "Rank #3 Genre"
+        },
+        {
+            "name": "rank3",
+            "value": ""
+        }
+    ],
+    [
+        {
+            "value": "Top Rated Anime"
+        },
+        {
+            "name": "topAnime3",
+            "value": ""
+        }
+    ]
+]

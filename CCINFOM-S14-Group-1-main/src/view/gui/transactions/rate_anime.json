@@ -1,0 +1,86 @@
+[
+    [
+        {
+            "value": "User"
+        },
+        {
+            "name": "username",
+            "value": "",
+            "db_link": "users.user_name"
+        },
+        {
+            "name": "userId",
+            "value": "",
+            "db_link": "users.user_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchUser",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Anime"
+        },
+        {
+            "name": "anime",
+            "value": "",
+            "db_link": "animes.title"
+        },
+        {
+            "name": "animeId",
+            "value": "",
+            "db_link": "animes.anime_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchAnime",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Rating"
+        },
+        {
+            "type": "TextField",
+            "name": "rating"
+        }
+    ],
+    [
+        {
+            "value": "Comment"
+        },
+        {
+            "type": "TextArea",
+            "name": "comment"
+        }
+    ],
+    [
+        {
+            "value": "Last Episode Watched"
+        },
+        {
+            "name": "episode",
+            "value": "0"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "value": "Save",
+            "name": "saveRating"
+        },
+        {
+            "type": "Button",
+            "value": "Delete",
+            "name": "deleteRating"
+        },
+        {
+            "type": "Button",
+            "value": "Load",
+            "name": "loadRating"
+        }
+    ]
+]

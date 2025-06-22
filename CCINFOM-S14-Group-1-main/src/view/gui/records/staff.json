@@ -1,0 +1,81 @@
+[
+    [
+        {
+            "value": "Staff"
+        },
+        {
+            "value": "No staff selected",
+            "name": "staffId",
+            "db_link": "staff.staff_id"
+        },
+        {
+            "type": "Button",
+            "value": "Search",
+            "name": "searchStaff"
+        },
+        {
+            "type": "Button",
+            "value": "Add New",
+            "name": "addNewStaff"
+        }
+    ],
+    [
+        {
+            "value": "First Name"
+        },
+        {
+            "type": "TextField",
+            "name": "firstName",
+            "db_link": "staff.first_name"
+        }
+    ],
+    [
+        {
+            "value": "Last Name"
+        },
+        {
+            "type": "TextField",
+            "name": "lastName",
+            "db_link": "staff.last_name"
+        }
+    ],
+    [
+        {
+            "value": "Occupation"
+        },
+        {
+            "type": "TextField",
+            "name": "occupation",
+            "db_link": "staff.occupation"
+        }
+    ],
+    [
+        {
+            "value": "Birthday"
+        },
+        {
+            "type": "TextField",
+            "name": "birthday",
+            "db_link": "staff.birthday"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "saveStaff",
+            "value": "Save"
+        },
+        {
+            "type": "Button",
+            "name": "deleteStaff",
+            "value": "Delete"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "staffHistory",
+            "value": "Check Work History"
+        }
+    ]
+]

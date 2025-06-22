@@ -1,0 +1,92 @@
+[
+    [
+        {
+            "value": "Anime"
+        },
+        {
+            "type": "TextField",
+            "name": "animeTitle",
+            "db_link": "animes.title"
+        },
+        {
+            "name": "animeId",
+            "value": "",
+            "db_link": "animes.anime_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchAnime",
+            "value": "Search"
+        },
+        {
+            "type": "Button",
+            "value": "Add New",
+            "name": "addNewAnime"
+        }
+    ],
+    [
+        {
+            "value": "Studio"
+        },
+        {
+            "type": "Label",
+            "name": "studioName",
+            "value": "",
+            "db_link": "studios.studio_name"
+        },
+        {
+            "type": "Label",
+            "name": "studioId",
+            "value": "",
+            "db_link": "studios.studio_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchStudio",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Genre"
+        },
+        {
+            "type": "ComboBox",
+            "name": "genre",
+            "db_link": "animes.genre",
+            "combobox_type": "genre"
+        }
+    ],
+    [
+        {
+            "value": "Date Aired"
+        },
+        {
+            "type": "TextField",
+            "name": "airDate",
+            "db_link": "animes.air_date"
+        }
+    ],
+    [
+        {
+            "value": "Number of Episodes"
+        },
+        {
+            "type": "TextField",
+            "name": "episodes",
+            "db_link": "animes.num_of_episodes"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "saveAnime",
+            "value": "Save"
+        },
+        {
+            "type": "Button",
+            "name": "deleteAnime",
+            "value": "Delete"
+        }
+    ]
+]

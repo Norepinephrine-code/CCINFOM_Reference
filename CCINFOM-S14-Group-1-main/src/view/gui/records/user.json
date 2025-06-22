@@ -1,0 +1,67 @@
+[
+    [
+        {
+            "value": "User"
+        },
+        {
+            "type": "TextField",
+            "name": "username",
+            "db_link": "users.user_name"
+        },
+        {
+            "value": "No user selected",
+            "name": "userId",
+            "db_link": "users.user_id"
+        },
+        {
+            "type": "Button",
+            "value": "Search",
+            "name": "searchUser"
+        },
+        {
+            "type": "Button",
+            "value": "Add New",
+            "name": "addNewUser"
+        }
+    ],
+    [
+        {
+            "value": "Region"
+        },
+        {
+            "type": "ComboBox",
+            "name": "region",
+            "db_link": "users.region",
+            "combobox_type": "region"
+        }
+    ],
+    [
+        {
+            "value": "Date Joined"
+        },
+        {
+            "type": "TextField",
+            "name": "joinDate",
+            "db_link": "users.join_date"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "saveUser",
+            "value": "Save"
+        },
+        {
+            "type": "Button",
+            "name": "deleteUser",
+            "value": "Delete"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "viewUserWatchHistory",
+            "value": "View Watch History"
+        }
+    ]
+]

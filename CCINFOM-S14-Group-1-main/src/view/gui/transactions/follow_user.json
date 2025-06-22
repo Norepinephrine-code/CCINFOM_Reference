@@ -1,0 +1,53 @@
+[
+    [
+        {
+            "value": "Follower"
+        },
+        {
+            "name": "username",
+            "value": "",
+            "db_link": "users.user_name"
+        },
+        {
+            "name": "userId",
+            "value": "No user selected",
+            "db_link": "users.user_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchFollower",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "value": "Followed User"
+        },
+        {
+            "name": "user2name",
+            "value": "",
+            "db_link": "users.user_name"
+        },
+        {
+            "name": "user2Id",
+            "db_link": "users.user_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchFollowed",
+            "value": "Search"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "follow",
+            "value": "Follow"
+        },
+        {
+            "type": "Button",
+            "name": "unfollow",
+            "value": "Unfollow"
+        }
+    ]
+]

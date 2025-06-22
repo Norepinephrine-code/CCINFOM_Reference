@@ -1,0 +1,41 @@
+[
+    [
+        {
+            "value": "User"
+        },
+        {
+            "name": "username",
+            "value": "No user selected",
+            "db_link": "users.user_name"
+        },
+        {
+            "name": "userId",
+            "value": "",
+            "db_link": "users.user_id"
+        },
+        {
+            "type": "Button",
+            "name": "searchUser",
+            "value": "Search"
+        }
+    ],
+    [  
+        {
+            "name": "yearUserLabel",
+    
+            "value": "Select Year of User Information"
+        },
+        {
+            "type": "ComboBox",
+            "name": "yearUserComboBox",
+            "combobox_type": "years"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "value": "Check",
+            "name": "checkUserProfile"
+        }
+    ]
+]

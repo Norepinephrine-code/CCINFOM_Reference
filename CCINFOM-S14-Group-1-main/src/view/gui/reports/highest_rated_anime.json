@@ -1,0 +1,29 @@
+[
+    [
+        {
+            "value": "Select Period"
+        },
+        {
+            "type": "ComboBox",
+            "name": "periodComboBox",
+            "combobox_type": "period"
+        }
+    ],
+    [
+        {
+            "value": "Filter by Genre"
+        },
+        {
+            "type": "ComboBox",
+            "name": "genreComboBox",
+            "combobox_type": "genre_with_none"
+        }
+    ],
+    [
+        {
+            "type": "Button",
+            "name": "checkButton",
+            "value": "Check"
+        }
+    ]
+]
